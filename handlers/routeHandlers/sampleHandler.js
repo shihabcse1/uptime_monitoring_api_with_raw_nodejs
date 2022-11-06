@@ -1,3 +1,4 @@
+// module scaffolding
 const handler = {};
 
 handler.sampleHandler = (requestProperties, callback) => {

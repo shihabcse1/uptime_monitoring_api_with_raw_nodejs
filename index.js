@@ -1,8 +1,3 @@
-/*
- * Title: Uptime Monitoring Application
- * Description: A RESTFul API to monitor up or down time of user defined links
- *
- */
 // dependencies
 const http = require("http");
 const { handleReqRes } = require("./helpers/handleReqRes");
@@ -12,7 +7,7 @@ const app = {};
 
 // configuration
 app.config = {
-    port: 5000,
+    port: 3000,
 };
 
 // create server

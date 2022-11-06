@@ -5,3 +5,5 @@ handler.notFoundHandler = (requestProperties, callback) => {
         message: "Your requested URL was not found!",
     });
 };
+
+module.exports = handler;

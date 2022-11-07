@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js",
-        "start-dev": "nodemon index.js",
+        "start": "NODE_ENV=staging node index",
+        "production": "NODE_ENV=production node index",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
@@ -12,6 +12,7 @@
     "keywords": [],
     "description": "",
     "dependencies": {
+        "dotenv": "^16.0.3",
         "lodash": "^4.17.21"
     },
     "devDependencies": {

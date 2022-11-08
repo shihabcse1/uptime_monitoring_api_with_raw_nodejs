@@ -20,14 +20,14 @@ const app = {};
 //     console.log(err, data);
 // });
 
-data.update(
-    "test",
-    "newFile",
-    { name: "England", language: "English" },
-    (err) => {
-        console.log(err);
-    }
-);
+// data.update(
+//     "test",
+//     "newFile",
+//     { name: "England", language: "English" },
+//     (err) => {
+//         console.log(err);
+//     }
+// );
 
 // configuration
 app.config = {

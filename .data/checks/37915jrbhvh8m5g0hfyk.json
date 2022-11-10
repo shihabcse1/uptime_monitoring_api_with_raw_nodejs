@@ -1,1 +1,1 @@
-{"id":"37915jrbhvh8m5g0hfyk","userPhone":"01871429133","protocol":"http","url":"google.com","method":"GET","successCodes":[200,201],"timeoutSeconds":2}
+{"id":"37915jrbhvh8m5g0hfyk","userPhone":"01871429133","protocol":"http","url":"google.com","method":"GET","successCodes":[200,201],"timeoutSeconds":2,"state":"down","lastChecked":1668082760762}
